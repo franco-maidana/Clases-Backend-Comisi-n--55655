@@ -72,10 +72,11 @@ events.create({
 });
 
 // console.log(HarryPotter);
-// console.log(EventManager.Events);
+console.log(EventManager.Events);
 // console.log(events.read());
 // console.log(events.readById(2));
 events.soldTicket(8,1)
 events.soldTicket(5,2)
 events.soldTicket(15,3)
 console.log(events.read())
+console.log(events.getGain())
